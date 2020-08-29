@@ -11,7 +11,7 @@
 }
 
 .heading {
-  font-size: 22px;
+  font-size: 20px;
   margin-bottom: 20px;
   font-weight: 700;
 
@@ -23,6 +23,7 @@
 }
 
 .whrapper {
+  position: relative;
   min-height: 400px;
   display: flex;
   flex-direction: column;
@@ -35,6 +36,7 @@
     min-height: 500px;
     width: 400px;
   }
+  padding-bottom: 50px;
 }
 
 .header {
@@ -64,7 +66,6 @@
   transition: all .3s;
   font-size: 16px;
   border-radius: 5px;
-  font-family: 'Quicksand', sans-serif;
 
   @media (min-width: 500px) {
     width: 260px;
@@ -98,7 +99,6 @@
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
-  font-family: 'Quicksand', sans-serif;
 
   @media (min-width: 500px) {
     width: 80px;
@@ -117,4 +117,29 @@
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: flex;
+}
+
+.translate {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.english {
+  background-image: url(./images/england.svg);
+  margin-right: 10px;
+}
+
+.russian {
+  background-image: url(./images/russia.svg);
 }
