@@ -3,7 +3,7 @@ import './App.scss'
 import ListItem from './ListItem/ListItem'
 import { I18nProvider, LOCALES } from './i18n'
 import translate from './i18n/translate'
-
+import { FormattedMessage } from 'react-intl' // for placeholder fix
 function App(props) {
   const [items, setItems] = React.useState([])
   const [currentItem, setCurrentItem] = React.useState({
@@ -52,7 +52,11 @@ function App(props) {
         <div className="whrapper">
           <header className="header">
             <form id="todo-form" className="form" onSubmit={addItem}>
-              <input className="enter-task" type="text" placeholder="..." value={currentItem.text} onChange={handleInput} />
+              <FormattedMessage id="enter">
+                {placeholder =>
+                  <input className="enter-task" type="text" placeholder={placeholder} value={currentItem.text} onChange={handleInput} />
+                }
+              </FormattedMessage>
               <button className="add" type="submit">{translate("add")}</button>
             </form>
           </header>

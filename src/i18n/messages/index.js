@@ -1,13 +1,13 @@
 import en from './en-US'
-import jp from './jp-JP'
+import ja from './ja-JA'
 import de from './de-DE'
-import ua from './ua-UA'
+import uk from './uk-UK'
 import ru from './ru-RU'
 
 export default {
     ...en,
-    ...jp,
+    ...ja,
     ...de,
-    ...ua,
+    ...uk,
     ...ru
 }
