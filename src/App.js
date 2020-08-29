@@ -60,8 +60,11 @@ function App(props) {
             <ListItem items={items} deleteItem={deleteItem} setUpdate={setUpdate} />
           </main>
           <footer className="footer">
-            <div className="translate english" onClick={() => setLocale(LOCALES.ENGLISH)}></div>
-            <div className="translate russian" onClick={() => setLocale(LOCALES.RUSSIAN)}></div>
+            <div className="translate england" onClick={() => setLocale(LOCALES.ENGLISH)}></div>
+            <div className="translate japan" onClick={() => setLocale(LOCALES.JAPANESE)}></div>
+            <div className="translate germany" onClick={() => setLocale(LOCALES.GERMAN)}></div>
+            <div className="translate ukraine" onClick={() => setLocale(LOCALES.UKRAINIAN)}></div>
+            <div className="translate russia" onClick={() => setLocale(LOCALES.RUSSIAN)}></div>
           </footer>
         </div>
       </div>
