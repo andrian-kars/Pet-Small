@@ -1,7 +1,7 @@
 export const LOCALES = {
     ENGLISH: 'en-us',
-    JAPANESE: 'jp-JP',
+    JAPANESE: 'ja-JA',
     GERMAN: 'de-DE',
-    UKRAINIAN: 'ua-UA',
-    RUSSIAN: 'ru-ru'
+    UKRAINIAN: 'uk-UK',
+    RUSSIAN: 'ru-RU'
 }
