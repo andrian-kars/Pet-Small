@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="main">
+        <section class="calculator">
+            <div class="calculator__row">
+                <input id="current-result" class="input" type="number" value="0">
+            </div>
+            <div class="calculator__row">
+                <button class="option option--grey">AC</button>
+                <button class="option option--grey">+/-</button>
+                <button class="option option--grey">%</button>
+                <button class="option option--orange">/</button>
+            </div>
+            <div class="calculator__row">
+                <button id="number-seven" class="option number">7</button>
+                <button id="number-eight" class="option number">8</button>
+                <button id="number-none" class="option number">9</button>
+                <button class="option option--orange">x</button>
+            </div>
+            <div class="calculator__row">
+                <button id="number-four" class="option number">4</button>
+                <button id="number-five" class="option number">5</button>
+                <button id="number-six" class="option number">6</button>
+                <button class="option option--orange">-</button>
+            </div>
+            <div class="calculator__row">
+                <button id="number-one" class="option number">1</button>
+                <button id="number-two" class="option number">2</button>
+                <button id="number-three" class="option number">3</button>
+                <button class="option option--orange">+</button>
+            </div>
+            <div class="calculator__row">
+                <button id="number-zero" class="option option--long number">0</button>
+                <button class="option">.</button>
+                <button class="option option--orange">=</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
