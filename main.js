@@ -6,7 +6,7 @@ const NUMBER_THREE = document.querySelector('#number-three');
 const NUMBER_FOUR = document.querySelector('#number-four');
 const NUMBER_FIVE = document.querySelector('#number-five');
 const NUMBER_SIX = document.querySelector('#number-six');
-const NUMBER_SEVEN = document.querySelector('#number-seven');
+const NUMBER_SEVEN = document.querySelector('#number-seven')
 const NUMBER_EIGHT = document.querySelector('#number-eight')
 const NUMBER_NINE = document.querySelector('#number-nine')
 
