@@ -8,7 +8,7 @@ const NUMBER_FIVE = document.querySelector('#number-five');
 const NUMBER_SIX = document.querySelector('#number-six');
 const NUMBER_SEVEN = document.querySelector('#number-seven');
 const NUMBER_EIGHT = document.querySelector('#number-eight');
-const NUMBER_NINE = document.querySelector('#number-nine');
+const NUMBER_NINE = document.querySelector('#number-nine')
 
 
 function numberOne() {
