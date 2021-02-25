@@ -15,4 +15,8 @@ function numberOne() {
     CURRENT_RESULT.value = 1;
 }
 
+function add(a, b) {
+    return a + b
+}
+
 NUMBER_ONE.onclick = numberOne;
