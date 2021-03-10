@@ -1,0 +1,71 @@
+.list_items {
+    width: 270px;
+
+    @media (min-width: 500px) {
+        width: 360px;
+    }
+}
+
+.list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+    padding: 0 15px;
+    height: 40px;
+    margin-bottom: 15px;
+
+    @media (min-width: 500px) {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    & p {
+        margin: 0;
+    }
+}
+
+.input {
+    min-width: 200px;
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    font-size: 16px;
+
+    @media (min-width: 500px) {
+        font-size: 17px;
+        min-width: 290px;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.delete {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+
+    @media (min-width: 500px) {
+        right: 15px;
+    }
+
+    &:hover svg,
+    &:active svg,
+    &:focus svg {
+        fill: #FF0000;
+    }
+}
+
+.delete svg {
+    width: 21px;
+    transition: .3s;
+
+    @media (min-width: 500px) {
+        width: 23px;
+    }
+}
